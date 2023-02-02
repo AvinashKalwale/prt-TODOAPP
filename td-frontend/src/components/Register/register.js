@@ -78,7 +78,7 @@ const RegisterPage = () => {
         <>
             <div className="container">
             <div className="user-icon">
-                    <img src={penImg}></img>
+                    <img alt="snap" src={penImg}></img>
                 </div>
                 <div className="main">
                     

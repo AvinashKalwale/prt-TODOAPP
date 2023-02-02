@@ -44,7 +44,7 @@ const LoginPage = () => {
         <>
             <div className="containers">
             <div className="user-icon">
-                    <img src={userImg}></img>
+                    <img  alt="snap" src={userImg}></img>
                 </div>
                 <div className="form-container">
                 
