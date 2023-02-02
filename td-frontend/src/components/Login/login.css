@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(136, 135, 135);
+}
+
+.containers {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(205 90 48);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.form-container{
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px;
+    margin-top: -30px;
+}
+.user-id{
+    width: 250px;
+    height: 25px;
+    background-color: light rgb(213, 212, 212);
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+.password{
+    width: 250px;
+    height: 25px;
+    background-color: light rgb(213, 212, 212);
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+button{
+    width: 250px;
+    height: 35px;
+    background-color: rgb(117, 150, 228);
+    color: white;
+    font-size: 18px;
+    border: 0px;
+}
+.user-icon{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(252, 211, 9);
+    border-radius: 50px;
+    position: inherit;
+}
+p{
+    margin-top: 20px;
+    color: red;
+    cursor: pointer;
+}
+.sign-up{
+    width: 250px;
+    height: 35px;
+    background-color: rgb(42, 171, 42);
+    color: white;
+    font-size: 18px;
+    border: 0px;
+    margin-top: 10px;
+}
